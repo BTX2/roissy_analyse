@@ -28,7 +28,7 @@ def process_recup(compteur):
     x_roissy = 2.547925
     y_roissy = 49.009691
 
-    geolocator = Nominatim(user_agent="thibault_marchal@yahoo.fr")
+    geolocator = Nominatim(user_agent="email_address")
     maps = folium.Map(location=[y_roissy, x_roissy], zoom_start=5)
 
     # création des listes avec les coordonnées : la liste des villes départs a les coordonnées
